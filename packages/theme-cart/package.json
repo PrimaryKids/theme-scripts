@@ -25,6 +25,9 @@
     "build": "rollup --config",
     "size": "size-limit"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "*"
+  },
   "devDependencies": {
     "fetch-mock": "^7.0.0-alpha.6",
     "isomorphic-fetch": "^2.2.1",
