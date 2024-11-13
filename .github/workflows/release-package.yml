@@ -30,5 +30,6 @@ jobs:
           scope: '@primarykids'
       - run: npm ci --legacy-peer-deps
       - run: npm publish --registry 'https://npm.pkg.github.com/@primarykids'
+        working-directory: ./packages/theme-cart
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

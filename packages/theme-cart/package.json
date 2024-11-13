@@ -1,16 +1,16 @@
 {
-  "name": "@shopify/theme-cart",
+  "name": "@primarykids/theme-cart",
   "version": "4.0.0",
   "description": "A library that helps theme developers integrate their projects with the Shopify Cart API",
   "main": "dist/theme-cart.cjs.js",
   "module": "theme-cart.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shopify/theme-scripts.git"
+    "url": "git+https://github.com/PrimaryKids/theme-scripts.git"
   },
   "publishConfig": {
     "access": "public",
-    "@shopify:registry": "https://registry.npmjs.org"
+    "@primarykids:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "Shopify",
@@ -20,10 +20,6 @@
   ],
   "author": "Shopify Inc.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Shopify/theme-scripts/issues"
-  },
-  "homepage": "https://github.com/Shopify/theme-scripts#readme",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rollup --config",
