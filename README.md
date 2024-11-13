@@ -1,5 +1,6 @@
 # PrimaryKids
-We forked this so we could easily edit theme-cart. Creating a release will publish an new package. Only theme-cart is functional. See the github workflow for more information.
+We forked this so we could easily edit theme-cart. ~~Creating a release will publish an new package.~~ broken atm due to rollup not being present. Trying to fix. you can `npm publish` locally.
+Only theme-cart is functional. See the github workflow for more information.
 # Theme Scripts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
