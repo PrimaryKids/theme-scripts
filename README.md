@@ -5,6 +5,7 @@ We forked this so we could easily edit theme-cart. You can also `npm publish` lo
 * point pk-shopify-theme's package.json entry directly to the git repo and test branch for easier deveelopment
 ## Updating the package
 * update the version in `package.json` in the commit that updates master.
+* run `npm i --legacy-peer-deps` to update the package lock and make roll up available
 * push a tag of the form `v1.0.x` to this repo and a new version will be packaged
 * point pk-shopify-theme's theme-cart package.json entry to new version.
 # Theme Scripts

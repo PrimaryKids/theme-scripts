@@ -32,8 +32,10 @@
   integrity sha512-yprFYuno9FtNsSHVlSWd+nRlmGoAbqbeCwOryP6sC/zoCjhpArcRMYp19EvpSUSizJAlsXEwJv+wcWS9XaXdMw==
 
 "@primarykids/theme-cart@file:/Users/mathieulue/repos/theme-scripts/packages/theme-cart":
-  version "4.0.0"
+  version "4.0.1"
   resolved "file:packages/theme-cart"
+  optionalDependencies:
+    "@rollup/rollup-linux-x64-gnu" "*"
 
 "@types/estree@0.0.39":
   version "0.0.39"
