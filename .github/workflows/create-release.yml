@@ -11,7 +11,7 @@ permissions:
 jobs:
   release:
     name: Release pushed tag
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Create release
         env:
@@ -23,6 +23,7 @@ jobs:
               --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
               --generate-notes
   build:
+    name: Build
     needs: release
     runs-on: ubuntu-latest
     steps:
@@ -34,6 +35,7 @@ jobs:
       - run: npm test
 
   publish-gpr:
+    name: Publish
     needs: build
     runs-on: ubuntu-latest
     permissions:
