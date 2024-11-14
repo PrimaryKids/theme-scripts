@@ -1,6 +1,12 @@
 # PrimaryKids
-We forked this so we could easily edit theme-cart. ~~Creating a release will publish an new package.~~ broken atm due to rollup not being present. Trying to fix. you can `npm publish` locally.
-Only theme-cart is functional. See the github workflow for more information.
+We forked this so we could easily edit theme-cart. You can also `npm publish` locally.
+* Only theme-cart is functional.
+## Package development
+* point pk-shopify-theme's package.json entry directly to the git repo and test branch for easier deveelopment
+## Updating the package
+* update the version in `package.json` in the commit that updates master.
+* push a tag of the form `v1.0.x` to this repo and a new version will be packaged
+* point pk-shopify-theme's theme-cart package.json entry to new version.
 # Theme Scripts
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
